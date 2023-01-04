@@ -12,7 +12,7 @@ function btnClick(){
     {
         alert("Please fill all fields")
         btn=false
-    }else if(!/^([a-zA-Z0-9\_.]+)@([a-zA-Z0-9]+).([a-z]+).([a-zA-Z]+)?$/.test(mail)){
+    }else if(!/^([a-zA-Z0-9\_.]+)@([a-zA-Z0-9]+).([a-z]+).([a-z]+)?$/.test(mail)){
         alert("Please re-check at email")
         btn=false
      }else if(!/^\d+$/.test(Phone)){
